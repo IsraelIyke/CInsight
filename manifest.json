@@ -1,7 +1,7 @@
 {
   "name": "CInsight",
   "version": "1.0.0",
-  "description": "This is an extension that checks the privacy and cookie information page for the type of information a website collects and tellz the user the implication of each one leveraging Ai. It also have other features such the feature for checking how old a domain name is (to help prevent ... attack), a feature for deleting the cookie in a site upon tag close if the user desires and finally a feature that shows daily internet security tips",
+  "description": "This is an extension that analyses the privacy and cookie information page for the type of information a website collects and tells the summarizes it leveraging Ai. It also have other features such the feature for checking how old a domain name is (to help prevent phishing including Homograph  attack, Typosquatting or URL Spoofing etc), a typo guage (use to see if a website it genuine) and finally a feature that shows daily internet security tips",
   "manifest_version": 3,
   "author": "Israel Nwangwu, Solomon Joboson, Favour Ebube",
   "action": {

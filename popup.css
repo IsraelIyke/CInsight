@@ -1,0 +1,62 @@
+body {
+  width: 400px;
+  padding: 0 1rem 1rem 1rem;
+}
+h1 {
+  text-align: center;
+}
+.features-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: hsl(39, 100%, 30%);
+}
+.primary-feature {
+  height: 3rem;
+  width: 90vw;
+  border-radius: 0.3rem;
+  background-color: #996300;
+  color: antiquewhite;
+  text-align: center;
+  margin: 0 0.5rem 0.5rem 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgb(81, 81, 81);
+
+  /* background: rgba( 153, 99, 0, 0.4 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 ); */
+}
+.secondary-feature {
+  display: flex;
+  width: 90vw;
+}
+.secondary-feature div {
+  height: 5rem;
+  width: 10rem;
+  margin: 0.5rem;
+  border-radius: 0.3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(145deg, #cacaca, #f0f0f0);
+  box-shadow: 5px 5px 10px #676767, -5px -5px 10px #ffffff;
+  padding: 0.5rem;
+}
+
+.daily-facts {
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.daily-facts span {
+  color: black;
+  font-size: 0.8rem;
+}

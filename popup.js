@@ -3,16 +3,15 @@ document.addEventListener("DOMContentLoaded", function () {
     { active: true, currentWindow: true },
     async function (tabs) {
       const currentTab = tabs[0];
-      const url = currentTab.url;
+      const taburl = currentTab.url;
 
-      if (url.includes("privacy") || url.includes("cookie")) {
+      if (taburl.includes("privacy") || taburl.includes("cookie")) {
         const apiUrl =
           "https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent";
         const API_KEY = "AIzaSyCBPS7MwLkDQoFgZR0YwR4jxtcISmQxA8I";
 
         const fetchData = async () => {
-          const url =
-            "https://text-extract7.p.rapidapi.com/?url=https%3A%2F%2Fvarlcservices.com%2Fprivacy";
+          const url = `https://text-extract7.p.rapidapi.com/?url=${taburl}`;
           const options = {
             method: "GET",
             headers: {
