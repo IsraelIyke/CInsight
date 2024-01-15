@@ -2,6 +2,9 @@ body {
   width: 400px;
   padding: 0 1rem 1rem 1rem;
 }
+a {
+  text-decoration: none;
+}
 h1 {
   text-align: center;
 }
