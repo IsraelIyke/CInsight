@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
       if (taburl.includes("privacy") || taburl.includes("cookie")) {
         const apiUrl =
           "https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent";
-        const API_KEY = "AIzaSyCBPS7MwLkDQoFgZR0YwR4jxtcISmQxA8I";
+        const API_KEY = ""; //use your google api key here
 
         const fetchData = async () => {
           const url = `https://text-extract7.p.rapidapi.com/?url=${taburl}`;
@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
             method: "GET",
             headers: {
               "X-RapidAPI-Key":
-                "481bc2cecfmsh6bcf92c5577adb9p1c0ed1jsnac284e3b033e",
+                "",  //use your rapid api key here
               "X-RapidAPI-Host": "text-extract7.p.rapidapi.com",
             },
           };
